@@ -1,19 +1,51 @@
-body{
-    width: 1219px;
+body {
+  width: 1219px;
+  margin: auto 20%;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  overflow-y: auto;
 }
-
-header{
-    
+header {
+  background: #007765;
+  display: block;  
+  position: fixed;
+  width: 1219px;
+  height: 84px;
+  
+  }
+.tritop {
+  position: absolute;
+  left: 0%;
+  right: 75.55%;
+  top: 0%;
+  bottom: 0.09%;
 }
+nav a, nav{
+    color: aliceblue;
+    text-align: end;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 28px 54px;
+}
+.navigation {
+  display: inline-block;
 
+  line-height: 28px;
+  text-align: center;
+  margin: auto 8px;
+}
+.tribot {
+  position: absolute;
+  left: 0.02%;
+  right: 0%;
+  top: 0%;
+  bottom: -0.09%;
+}
 .Jumbotron {
-    background: url(images/greenGeotop.svg);
-    text-align: center;
-    color:aliceblue;
-    font-size: 72px;
-    font-family: Roboto, Arial, Helvetica, sans-serif;
-    padding: 160px auto;
+  background: url(images/greenGeotop.svg);
+  text-align: center;
+  color: aliceblue;
+  font-size: 72px;
 }
 .PiperNet {
-    
+  padding: 160px 0px;
 }
