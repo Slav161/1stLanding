@@ -6,52 +6,58 @@ body {
 }
 .top {
   margin: auto;
-  padding: auto 55px;
+  padding: 0px 55px;
   width: 1219px;
-  border: 2px solid red;
 }
 header {
   background: #007765;
   position: fixed;
   height: 84px;
   width: 100%;
-  border: 1px solid red;
 }
 .logo {
   display: inline-block;
   width: fit-content;
-  border: 1px solid red;
+  margin-right: 502px;
 }
-nav a,
-nav {
+nav,
+nav a {
   color: aliceblue;
-  display: inline-block;
-  text-align: end;
   font-weight: 500;
   font-size: 24px;
-  margin: 28px auto;
-  margin-left: 30rem;
+  margin: 27px;
+}
+nav {
   width: fit-content;
+  display: inline-block;
+  margin: 0;
 }
 .navigation {
-  display: inline-block;
+  /* display: inline-block; */
   line-height: 28px;
   text-align: center;
   margin: auto 8px;
+  text-decoration: none;
 }
 .braker {
   height: 84px;
 }
+main {
+  width: 100%;
+}
 .Jumbotron {
   background: url(images/greenGeotop.svg);
+  background-size: cover;
+  width: 100%;
+}
+.PiperNet {
+  padding: 160px 0px;
   text-align: center;
   color: aliceblue;
   font-size: 72px;
 }
-.PiperNet {
-  padding: 160px 0px;
-}
 .dib {
+  float: left;
   display: inline-block;
 }
 h1 {
@@ -65,8 +71,11 @@ h1 {
 
   color: #007765;
 }
-.hero {
+.cool {
   background: url(images/BlueGeo.svg);
+  background-size: cover;
+}
+.hero {
   font-style: italic;
   font-weight: 500;
   font-size: 48px;
@@ -74,8 +83,45 @@ h1 {
   text-align: center;
   padding: 128px 163px;
   color: #ffffff;
+  margin: auto;
+  width: 1219px;
 }
 .maintext {
   font-size: 32px;
   color: #000000;
+  line-height: 37px;
+}
+table {
+  width: 100%;
+}
+
+figure.port figcaption {
+  caption-side: bottom;
+  text-align: center;
+  font-size: 18px;
+  line-height: 21px;
+}
+figure.port img {
+  width: 168px;
+  margin: 10px 25%;
+}
+h3 {
+  margin: 0%;
+  color: #007765;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+footer {
+  width: 100%;
+  
+  height: 176px;
+  background: #333333;
+}
+.footertext{
+  color: white;
+  text-align: center;
+  padding: 48px 340px 68px 339px;
+  font-size: 18px;
+  
 }
